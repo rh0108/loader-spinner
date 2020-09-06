@@ -1,0 +1,19 @@
+{
+  "name": "bb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist && node-sass src/scss -o dist/css",
+    "build:css": "node-sass --watch src/scss -o src/css/"
+  },
+  "author": "mohanpd",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "node-sass": "^4.14.1"
+  }
+}
