@@ -1,7 +1,7 @@
 import React from "react";
 
-function Component() {
+function Calendar() {
   return <p>Hello</p>;
 }
 
-export default Component;
+export default Calendar;
