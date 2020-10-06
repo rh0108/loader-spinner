@@ -1,43 +1,51 @@
 {
-  "name": "repo",
-  "version": "0.0.0",
-  "description": "",
+  "name": "react-loader-spinner",
+  "version": "4.0.0",
+  "description": "React spinner is collection of css and svg spinner for quick use.",
   "unpkg": "dist/index.js",
   "jsdelivr": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhnpd/react-loader-spinner"
+  },
+  "author": {
+    "name": "Mohan Upadhyay"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhnpd/react-loader-spinner"
+  },
+  "homepage": "https://mhnpd.github.io/react-loader-spinner/",
+  "keywords": [
+    "react-component",
+    "loader",
+    "spinner",
+    "react"
+  ],
   "scripts": {
     "build": "babel src -d dist && node-sass src/scss -o dist/css",
     "build:css": "node-sass --watch src/scss -o src/css/",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
   "devDependencies": {
-    "react": "^16.13.1",
-    "react-is": "^16.13.1",
-    "node-sass": "^4.14.1",
-    "react-dom": "^16.13.1",
     "@babel/cli": "^7.11.6",
-    "babel-loader": "^8.1.0",
     "@babel/core": "^7.11.6",
-    "@storybook/react": "^6.0.21",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
-    "@storybook/addon-links": "^6.0.21",
-    "@storybook/addon-actions": "^6.0.21",
-    "@storybook/addon-essentials": "^6.0.21"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mhnpd/repo"
-  },
-  "author": {
-    "name": "Mohan Upadhyay",
-    "url": "https://mohanpd.com.np"
-  },
-  "bugs": {
-    "url": "https://github.com/mhnpd/repo"
-  },
-  "homepage": "https://mhnpd.github.io/repo/",
-  "keywords": []
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "babel-loader": "^8.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "node-sass": "^4.14.1",
+    "prettier": "2.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1"
+  }
 }

@@ -1,1 +1,0 @@
-## 💎️ 💎️ 💎️ 💎️ 💎️  React Package publishing boilerplate  💎️ 💎️ 💎️ 💎️ 💎️ 
